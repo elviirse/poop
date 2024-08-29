@@ -1,5 +1,5 @@
 # syötteen lukeminen ja sijoittaminen muuttujaan
-name = input("Anna nimesi: ")
+name = input("Anna koko nimesi: ")
 # name = "Elviira" # merkkijono (string)
 print("Moi \n " + name) # "Moi " + "Elviira" -> "Moi Elviira"
 
@@ -15,11 +15,11 @@ print("Ikäsi on kahden vuoden päästä " + str(age))
 
 # käyttäjän pituus metreinä, liukuluku (float)
 # height = 1.7
-height = float(input("Anna pituus: "))
+height = float(input("Anna pituus (m): "))
 
-height = height + 0.1
+# height = height + 0.1
 print(f"Nimi: {name}, Ikä: {age}, Pituus: {height} ")
 
 import math
-print("pi: ")
+print("buu: ")
 print(math.pi)
