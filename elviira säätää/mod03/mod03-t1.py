@@ -9,4 +9,4 @@ fish_lenght = int(input("Kuinka pitkä kuhasi on (cm)? :"))
 if fish_lenght >= 37:
     print("Saat pitää kuhasi.")
 else:
-    print(f"Kuhasi on {37-fish_lenght} cm alamittainen, palaute se takaisin järveen, kiitos.")
+    print(f"Kuhasi on {37-fish_lenght} cm alamittainen, palaute se takaisin järveen, kiitos30.")
