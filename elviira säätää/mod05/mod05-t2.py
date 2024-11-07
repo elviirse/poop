@@ -7,14 +7,10 @@
 
 luvut = []
 
+user_input = input("Syötä luku tai lopeta tyhjällä merkkiluvulla: ")
 
-while True:
-    user_input = input("Syötä luku tai lopeta tyhjällä merkkijonolla: ")
+while user_input != "":
+    luvut.sort(reverse=True)
+    user_input = input("Syötä luku tai lopeta tyhjällä merkkiluvulla: ")
 
-if user_input == "":
-   break
-
-   
-
-luvut.sort(reverse=True)
-
+print(luvut)

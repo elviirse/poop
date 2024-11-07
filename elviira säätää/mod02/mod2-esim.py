@@ -21,5 +21,6 @@ height = float(input("Anna pituus (m): "))
 print(f"Nimi: {name}, Ikä: {age}, Pituus: {height} ")
 
 import math
-print("buu: ")
+print("buu": ")
 print(math.pi)
+
