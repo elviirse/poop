@@ -10,7 +10,11 @@ luvut = []
 user_input = input("Syötä luku tai lopeta tyhjällä merkkiluvulla: ")
 
 while user_input != "":
-    luvut.sort(reverse=True)
+    luvut.append(float(user_input))
     user_input = input("Syötä luku tai lopeta tyhjällä merkkiluvulla: ")
 
-print(luvut)
+luvut.sort(reverse=True)
+
+print("suurimmat luvut:")
+for luku in luvut[:5]:
+    print(luku)

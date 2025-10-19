@@ -14,6 +14,6 @@ summa = 0
 
 for i in range(noppa):
     lukumaara = random.randint(1, 6)
-    summa = float(noppa) * float(lukumäärä)
+    summa = float(noppa) * float(lukumaara)
 
-print(f"Arpakuutioiden summa on:n" + str(summa))
+print(f"Arpakuutioiden summa on: " + str(summa))
