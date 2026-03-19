@@ -3,7 +3,7 @@ from classes.auto import Auto
 auto1 = Auto("ABC-123", 142)
 
 auto1.kiihdyta(70)
-auto1.kulje(2)
+auto1.kulje(1.5)
 
 print(f"""
 Rekisteritunnus: {auto1.rekisteritunnus}
