@@ -46,3 +46,5 @@ eka_pyörä.tulosta()
 
 toka_pyörä = Sähköpyörä(merkki="Tunturi", vaihteiden_lukumaara= 21,omistaja= "Mie", toimintasade= 40)
 toka_pyörä.tulosta()
+
+
