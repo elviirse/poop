@@ -14,7 +14,7 @@ while True:
 
     pyyntö = requests.get(f"https://api.openweathermap.org/data/2.5/weather?q={paikkakunta}&units=metric&appid={oma_API}")
     # print(pyyntö.json())
-    if pyyntö.json()['cod'] != 404:
+    if pyyntö.json()['cod'] == 404:
         print('Virheellinen paikkakunta')
         continue
     else:

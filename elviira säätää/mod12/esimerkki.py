@@ -23,4 +23,3 @@ for sarja in sarjat:
 
 """
 
-chuck norris= value
