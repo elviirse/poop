@@ -12,7 +12,7 @@
     const product = num1 * num2 * num3;
     const average = sum / 3;
 
-// häh
+// näkyy käyttäjälle
 
     document.querySelector('#target').textContent =
         "Sum: " + sum +
