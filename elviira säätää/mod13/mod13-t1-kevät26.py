@@ -33,7 +33,7 @@ def onko_alkuluku(number):
 
 if __name__ == "__main__":
         # Käynnistä palvelin portissa 3000
-    app.run(host="127.0.0.1", port=3000, debug=True)
+    app.run(host="127.0.0.1", port=3001, debug=True)
 
 
 
